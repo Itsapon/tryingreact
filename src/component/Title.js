@@ -1,3 +1,3 @@
-export default function Title() {
-  return <H1>Hi there! This is Robin talking</H1>;
+export default function Title(props) {
+  return <h1>{props.content}</h1>;
 }
